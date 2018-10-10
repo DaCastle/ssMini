@@ -5,8 +5,8 @@
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
+    font-size: 2rem;
     font-weight: 700;
-    text-transform: uppercase;
     color: $primary;
     @include sans-serif-font;
     &:focus,
@@ -18,9 +18,8 @@
     > li.nav-item {
        > a.nav-link,
       > a.nav-link:focus {
-        font-size: .9rem;
+        font-size: 1.2rem;
         font-weight: 700;
-        text-transform: uppercase;
         color: $gray-900;
         &:hover {
           color: $primary;

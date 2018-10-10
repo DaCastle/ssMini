@@ -2,7 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header.png');
   background-position: center center;
   @include background-cover;
   hr {
@@ -21,7 +21,7 @@ header.masthead {
     }
   }
   @media (min-width: 992px) {
-    height: 350px;
+    height: 600px;
     padding-top: 0;
     padding-bottom: 0;
     h1 {

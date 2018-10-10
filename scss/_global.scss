@@ -49,7 +49,10 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 3rem 0;
+}
+.maps-btn {
+  margin-bottom: 1rem;
 }
 
 .section-heading {
@@ -76,4 +79,26 @@ img::selection {
 img::-moz-selection {
   color: $white;
   background: transparent;
+}
+
+.sm-padding-bottom {
+  padding-bottom: 3rem;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+
+.storage-tips {
+  p {
+    margin-bottom: .2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .location-title {
+    margin-top: 5rem;
+  }
 }
