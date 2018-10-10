@@ -139,7 +139,7 @@ img {
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   text-align: center;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 700;
   color: #212529;
 }
