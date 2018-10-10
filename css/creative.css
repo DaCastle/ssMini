@@ -108,6 +108,10 @@ img {
   margin-bottom: .2rem;
 }
 
+.storage-tips img {
+  height: -webkit-fill-available;
+}
+
 @media (min-width: 768px) {
   .location-title {
     margin-top: 5rem;
