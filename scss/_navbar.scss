@@ -37,12 +37,12 @@
   }
   @media (min-width: 992px) {
     border-color: transparent;
-    background-color: transparent;
+    background-color: rgba($color: #000000, $alpha: .1);
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: $white;
       &:focus,
       &:hover {
-        color: $white;
+        color: fade-out($white, .3);
       }
     }
     .navbar-nav > li.nav-item > a.nav-link {
@@ -50,9 +50,9 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: $white;
       &:hover {
-        color: $white;
+        color: fade-out($white, .3);
       }
     }
     &.navbar-shrink {
